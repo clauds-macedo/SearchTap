@@ -1,14 +1,19 @@
 import React from "react";
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Route, Routes, Redirect, BrowserRouter } from "react-router-dom";
+import Home from "../components/Home.js";
+import Results from "../components/Results.js";
 
-const Routes = () => {
-    return(
-        <div>
-            <Switch>
-                <Route exact path='/'>
-                    <Redirect to="/search"/>
-                </Route>
-            </Switch>
-        </div>
-    )
-}
+const SearchRoutes = () => {
+  return (
+    <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/results" element={<Results />} />
+          <Route path="/images" element={<Results />} />
+          <Route path="/news" element={<Results />} />
+        </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default SearchRoutes;
