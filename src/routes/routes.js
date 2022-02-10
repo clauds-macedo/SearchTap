@@ -11,6 +11,7 @@ const SearchRoutes = () => {
           <Route exact path="/results" element={<Results />} />
           <Route path="/images" element={<Results />} />
           <Route path="/news" element={<Results />} />
+          <Route path="/videos" element={<Results />} />
         </Routes>
     </BrowserRouter>
   );
