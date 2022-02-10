@@ -9,7 +9,7 @@ const Home = () => {
       <div className="flex flex-col h-screen">
         <Header />
         <div className="flex justify-center items-center space-x-5 flex-col p-5 mb-10 h-screen">
-          <h1 className="sm:text-4xl md:text-6xl lg:text-8xl mb-8 text-center">
+          <h1 className="sm:text-6xl md:text-6xl lg:text-8xl mb-8 text-center">
             Search<span>Tap</span>
           </h1>
         <Searchbar/>
