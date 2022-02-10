@@ -14,3 +14,17 @@
 # Telas
 
 <h2>Home</h2>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/defaultHome.png"/>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/darkHome.png"/>
+
+<h2>Search</h2>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/defaultSearchScreen.png"/>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/darkSearchScreen.png"/>
+
+<h2>Images</h2>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/defaultImagesPage.png"/>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/darkImagesPage.png"/>
+
+<h2>News</h2>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/defaultNewsPage.png"/>
+<img src="https://raw.github.com/clauds-macedo/SearchTap/main/screenshots/darkNewsPage.png"/>
